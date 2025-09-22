@@ -23,3 +23,11 @@ train_dataset = datasets.CIFAR10(root='./data',\
 dataloader = torch.utils.data.DataLoader(train_dataset, \
                                 batch_size=32, shuffle=True)
 
+# defining the parameters:
+latent_dim = 100
+lr = 0.0002
+beta1 = 0.5
+beta2 = 0.999
+num_epochs = 10
+
+
